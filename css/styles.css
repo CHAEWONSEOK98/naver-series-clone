@@ -1,0 +1,9 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Otomanopee+One&display=swap');
+
+
+/* Components*/
+@import "components/status-bar.css";
+@import "components/nav-bar-1.css";
+@import "components/nav-bar-2.css";
+
