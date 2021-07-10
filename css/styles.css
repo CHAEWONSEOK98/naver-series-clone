@@ -6,4 +6,8 @@
 @import "components/status-bar.css";
 @import "components/nav-bar-1.css";
 @import "components/nav-bar-2.css";
+@import "components/main-screen__first__line.css";
 
+body{
+    height: 300vh;
+}

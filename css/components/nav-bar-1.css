@@ -11,7 +11,7 @@
     display:flex;
     align-items: center;
     position: relative;
-    left: 27px;
+    left: 50px;
 }
 
 .nav-bar-1__left__item {
@@ -29,6 +29,7 @@
 .nav-bar-1__left__item:nth-child(2){
     font-family: 'Otomanopee One', sans-serif;
     font-weight: bold;
+    margin-right:37px;
 }
 
 .nav-bar-1__left__item:nth-child(3){
@@ -86,9 +87,11 @@
     position:relative;
     right:53px;
     bottom: 2px;
+    color:#949494;
 }
 
 .nav-bar-1__right__item:nth-child(6) i {
     position:relative;
     right:48px;
+    color:#949494;
 } 
