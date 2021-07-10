@@ -12,53 +12,94 @@
 <body>
     <header class="status-bar">
         <span class="status-bar__item">
-            NAVER
+            <a href="https://www.naver.com">NAVER</a>
         </span>
         <span class="status-bar__item">
-            SERIES
+            <a href="https://series.naver.com/novel/home.series">SERIES</a>
         </span>
         <span class="status-bar__item">
-            로그인
+            <a href="https://nid.naver.com/nidlogin.login">로그인</a>
             <i class="fas fa-th fa-lg"></i>
         </span>
     </header>
 
-    <nav>
-        <div class="nav-bar-1">
-            <div class="nav-bar-1__left">
-                <span>장르소설</span>
-                <span>만화</span>
-                <span>e북</span>
-                <span>|</span>
-                <span>영화 · 방송 <i class="fas fa-angle-right"></i></span>
+
+    <nav class="nav-bar-1">
+        <div class="nav-bar-1__left">
+            <div class="nav-bar-1__left__item">
+                <a href="https://series.naver.com/novel/home.series">장르소설</a>
             </div>
-            <div class="nav-bar-1__right">
-                <span>MY</span>
-                <span>|</span>
-                <span>장바구니</span>
-                <input type="text">
+            <div class="nav-bar-1__left__item">
+                <a href="https://series.naver.com/comic/home.series">만화</a>
+            </div>
+            <div class="nav-bar-1__left__item">
+                <a href="https://series.naver.com/ebook/home.series">e북</a>
+            </div>
+            <div class="nav-bar-1__left__item">
+                |
+            </div>
+            <div class="nav-bar-1__left__item">
+                <a href="https://serieson.naver.com/movie/home.nhn">영화 · 방송</a>
+                <i class="fas fa-angle-right"></i>
             </div>
         </div>
-
-        <div class="nav-bar-2">
-            <div class="nav-bar-2__left">
-                <span>장르소설 홈</span>
-                <span>카테고리</span>
-                <span>TOP 100</span>
-                <span>매일10시무료</span>
-                <span>타임딜</span>
+        <div class="nav-bar-1__right">
+            <div class="nav-bar-1__right__item">
+                <a
+                    href="https://nid.naver.com/nidlogin.login?svctype=&url=http%3A%2F%2Fseries.naver.com%2Fmy%2Flibrary%2FproductList.nhn">MY</a>
             </div>
-            <div class="nav-bar-2__right">
-                <span>
-                    추천장르
-                    <i class="fas fa-caret-right fa-xs"></i>
-                </span>
-                <span>로맨스</span>
-                <span>|</span>
-                <span>로판</span>
+            <div class="nav-bar-1__right__item">|</div>
+            <div class="nav-bar-1__right__item">
+                <a
+                    href="https://nid.naver.com/nidlogin.login?svctype=&url=http%3A%2F%2Fseries.naver.com%2Fcart%2Flist.nhn%3FredirectUrl%3Dhttps%253A%252F%252Fseries.naver.com%252Febook%252Fhome.series%253FisWebtoonAgreePopUp%253Dfalse%2526amp%253BisWebtoonAgreePopUp%253Dtrue%26redirectUrl%3Dhttps%253A%252F%252Fseries.naver.com%252Febook%252Fhome.series%253FisWebtoonAgreePopUp%253Dfalse%2526amp%253BisWebtoonAgreePopUp%253Dtrue">장바구니</a>
             </div>
-
+            <div class="nav-bar-1__right__item">0</div>
+            <div class="nav-bar-1__right__item">
+                <input type="text" size="35px" style="height:25px;">
+                <i class="fas fa-sort-down fa-xs"></i>
+            </div>
+            <div class="nav-bar-1__right__item">
+                <i class="fas fa-search"></i>
+            </div>
         </div>
+    </nav>
+
+    <nav class="nav-bar-2">
+        <div class="nav-bar-2__left">
+            <div class="nav-bar-2__left__item">
+                <a href="https://series.naver.com/novel/home.series">장르소설 홈</a>
+            </div>
+            <div class="nav-bar-2__left__item">
+                <a href="https://series.naver.com/novel/recommendList.series">카테고리</a>
+            </div>
+            <div class="nav-bar-2__left__item">
+                <a href="https://series.naver.com/novel/top100List.series">TOP 100</a>
+            </div>
+            <div class="nav-bar-2__left__item">
+                <a href="https://series.naver.com/novel/specialFreeList.series">매일10시무료</a>
+            </div>
+            <div class="nav-bar-2__left__item">
+                <a href="https://series.naver.com/novel/specialFreeList.series?specialFreeTypeCode=TIMEDEAL">타임딜</a>
+            </div>
+        </div>
+        <div class="nav-bar-2__right">
+            <div class="nav-bar-2__right__item">
+                추천장르
+                <i class="fas fa-caret-right fa-xs"></i>
+            </div class="nav-bar-2__right__item">
+            <div class="nav-bar-2__right__item">
+                <a
+                    href="https://series.naver.com/novel/categoryProductList.series?categoryTypeCode=genre&genreCode=201">로맨스</a>
+            </div>
+            <div class="nav-bar-2__right__item">|</div>
+            <div class="nav-bar-2__right__item">
+                <a
+                    href="https://series.naver.com/novel/categoryProductList.series?categoryTypeCode=genre&genreCode=207">로판</a>
+            </div>
+        </div>
+    </nav>
+
+    </div>
     </nav>
 
     <script src="https://kit.fontawesome.com/5f469c9124.js" crossorigin="anonymous"></script>

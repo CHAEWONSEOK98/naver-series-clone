@@ -2,7 +2,93 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    border-bottom: solid 1px grey;
-    font-size: 20px;
+    border-bottom: solid 1px #E8E8E8;
+    font-size:18px;
     height: 45px;
 }
+
+.nav-bar-1__left{
+    display:flex;
+    align-items: center;
+    position: relative;
+    left: 27px;
+}
+
+.nav-bar-1__left__item {
+    margin-right:16px;
+}
+
+.nav-bar-1__left__item:nth-child(1){
+    background-color: #03C73C;
+    color:white;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bold;
+    padding: 13.5px;
+}
+
+.nav-bar-1__left__item:nth-child(2){
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bold;
+}
+
+.nav-bar-1__left__item:nth-child(3){
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bold;
+}
+
+.nav-bar-1__left__item:nth-child(4){
+    color: grey;
+    opacity: 0.3;
+}
+
+.nav-bar-1__left__item:nth-child(5){
+    color: grey;
+    opacity: 0.9;
+}
+
+
+.nav-bar-1__right{
+    display:flex;
+    align-items:center;
+    position: relative;
+    right:10px;
+}
+
+.nav-bar-1__right__item {
+    font-size: 14px;
+    margin-right:13px;
+}
+
+.nav-bar-1__right__item:nth-child(1){
+    color:#4B4B4B;
+    font-weight: bold;
+}
+
+.nav-bar-1__right__item:nth-child(2){
+    color:grey;
+    opacity: 0.5;
+}
+
+.nav-bar-1__right__item:nth-child(3){
+    color:#4B4B4B;
+    font-weight: bold;
+}
+
+.nav-bar-1__right__item:nth-child(4){
+    color:red;
+    position: relative;
+    right:7px;
+    font-size:17px;
+    opacity: 0.5;
+}
+
+.nav-bar-1__right__item:nth-child(5) i {
+    position:relative;
+    right:53px;
+    bottom: 2px;
+}
+
+.nav-bar-1__right__item:nth-child(6) i {
+    position:relative;
+    right:48px;
+} 
