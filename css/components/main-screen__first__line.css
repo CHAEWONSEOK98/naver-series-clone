@@ -30,7 +30,7 @@
   opacity: 0.5;
 }
 
-.add_option {
+.main-screen__first__line__add-option {
   width: 150px;
   font-size: 13px;
   color: black;
@@ -43,7 +43,7 @@
   margin-left: 83px;
 }
 
-.add_option i {
+.main-screen__first__line__add-option i {
   margin-left: 3px;
 }
 

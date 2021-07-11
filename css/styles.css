@@ -12,3 +12,7 @@
 body {
   height: 300vh;
 }
+
+* {
+  box-sizing: border-box;
+}

@@ -1,6 +1,157 @@
 .main-screen__second__line {
   display: flex;
   justify-content: center;
-  height: 16%;
-  border-bottom: solid 1px #e8e8e8;
+  height: 13%;
+  border-bottom: solid 1px grey;
+  position: relative;
+  left: 4.8%;
+}
+
+.main-screen__second__line__add-option {
+  width: 150px;
+  font-size: 13px;
+  color: black;
+  opacity: 0.8;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  margin-left: 37px;
+}
+
+.main-screen__second__line__add-option i {
+  margin-left: 3px;
+}
+
+.main-screen__second__line__screen-1 {
+  width: 101px;
+  height: 152px;
+  background-color: peachpuff;
+  margin-right: 31px;
+  margin-bottom: 11px;
+}
+
+.main-screen__second__line__screen-2 {
+  width: 101px;
+  height: 152px;
+  background-color: peachpuff;
+  margin-right: 31px;
+  margin-bottom: 11px;
+}
+
+.main-screen__second__line__screen-3 {
+  width: 101px;
+  height: 152px;
+  background-color: peachpuff;
+  margin-right: 31px;
+  margin-bottom: 11px;
+}
+
+.main-screen__second__line__screen-4 {
+  width: 101px;
+  height: 152px;
+  background-color: peachpuff;
+  margin-right: 31px;
+  margin-bottom: 11px;
+}
+
+.main-screen__second__line__screen-5 {
+  width: 101px;
+  height: 152px;
+  background-color: peachpuff;
+  margin-right: 31px;
+  margin-bottom: 11px;
+}
+
+.main-screen__second__line__screen-6 {
+  width: 101px;
+  height: 152px;
+  background-color: peachpuff;
+  margin-right: 31px;
+  margin-bottom: 11px;
+}
+
+.main-screen__second__line__screen-7 {
+  width: 101px;
+  height: 152px;
+  background-color: peachpuff;
+  margin-right: 31px;
+  margin-bottom: 11px;
+}
+
+.main-screen__second__line__column-1,
+.main-screen__second__line__column-2,
+.main-screen__second__line__column-3,
+.main-screen__second__line__column-4,
+.main-screen__second__line__column-5,
+.main-screen__second__line__column-6,
+.main-screen__second__line__column-7 {
+  position: relative;
+}
+
+.main-screen__second__line__free_info {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #626263;
+  position: relative;
+  top: -255px;
+  left: 3px;
+}
+
+.main-screen__second__line__screen__free {
+  background-color: #50bef9;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  position: absolute;
+  left: -12px;
+  top: -10px;
+}
+
+.main-screen__second__line__screen__free__number {
+  font-weight: bold;
+}
+
+.main-screen__second__line__screen__date__count {
+  background-color: #47525f;
+  color: white;
+  width: 101px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  position: relative;
+  top: -15px;
+}
+
+.main-screen__second__line__screen__info {
+  width: 101px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: -15px;
+}
+
+.main-screen__second__line__screen__title {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: unset;
+  margin-bottom: 8px;
+}
+
+.main-screen__second__line__screen__name {
+  font-size: 13px;
+  opacity: 0.5;
 }
