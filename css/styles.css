@@ -1,13 +1,14 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Festive&family=Otomanopee+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Otomanopee+One&display=swap");
 
 /* Components*/
 @import "components/status-bar.css";
 @import "components/nav-bar-1.css";
 @import "components/nav-bar-2.css";
 @import "components/main-screen__first__line.css";
+@import "components/main-screen__second__line__bargain-sale-background.css";
+@import "components/main-screen__second__line.css";
 
-body{
-    height: 300vh;
+body {
+  height: 300vh;
 }

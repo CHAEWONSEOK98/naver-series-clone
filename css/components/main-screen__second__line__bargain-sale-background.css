@@ -1,0 +1,41 @@
+.main-screen__second__line__bargain-sale-background {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.main-screen__second__line__bargain-sale {
+  display: flex;
+  justify-content: center;
+  border: 2px #d8d8d8 solid;
+  border-radius: 2px;
+  height: 9.7%;
+  width: 20%;
+  margin-top: 2%;
+  position: relative;
+  left: 2%;
+}
+
+.main-screen__second__line__bargain-sale-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  width: 50%;
+}
+
+.main-screen__second__line__bargain-sale-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: 50%;
+  color: grey;
+}
+
+.main-screen__second__line__bargain-sale-font {
+  font-size: 14px;
+  padding: 10px;
+}

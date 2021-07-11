@@ -1,149 +1,142 @@
-.main-screen__first__line{
-    display: flex;
-    justify-content: center;
-    height:425px;
-    border-bottom: solid 1px #E8E8E8;
-    position: relative;
-    left: 6%;
+.main-screen__first__line {
+  display: flex;
+  justify-content: center;
+  height: 425px;
+  border-bottom: solid 1px #e8e8e8;
+  position: relative;
+  left: 3.5%;
 }
 
 .chevron-left i {
-    margin-right:33px;
-    position: relative;
-    top: 30%;
-    opacity: 0.5;
+  margin-right: 33px;
+  position: relative;
+  top: 30%;
+  opacity: 0.5;
 }
 
 .chevron-right i {
-    position: relative;
-    top: 30%;
-    right: 25%;
-    opacity: 0.5;
+  position: relative;
+  top: 30%;
+  right: 160%;
+  opacity: 0.5;
 }
 
-.add_button{
-    position: relative;
-    right:35%;
-    top: 90%;
+.add_button {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  color: grey;
+  opacity: 0.5;
 }
 
-.add_button i{
-    color:grey;
-    opacity: 0.5;
+.add_option {
+  width: 150px;
+  font-size: 13px;
+  color: black;
+  opacity: 0.8;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  margin-left: 83px;
 }
 
-
-.add_option{
-    font-size: 13px;
-    color:black;
-    opacity: 0.8;
-    font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-right:5px;
-    position: relative;
-    top: 90%;
-    right: 10%;
+.add_option i {
+  margin-left: 3px;
 }
-
-.add_option i{
-    margin-left: 3px;
-}
-
-
 
 .main-screen__first__line__screen-1 {
-    width: 150px;
-    height: 222px;
-    background-color: peachpuff;
-    margin: 25px 40px 20px 0px;
+  width: 150px;
+  height: 222px;
+  background-color: peachpuff;
+  margin: 25px 40px 20px 0px;
 }
 
 .main-screen__first__line__screen-2 {
-    width: 150px;
-    height: 222px;
-    background-color: purple;
-    margin: 25px 40px 20px 0px;
+  width: 150px;
+  height: 222px;
+  background-color: purple;
+  margin: 25px 40px 20px 0px;
 }
 
 .main-screen__first__line__screen-3 {
-    width: 150px;
-    height: 222px;
-    background-color: plum;
-    margin: 25px 40px 20px 0px;
+  width: 150px;
+  height: 222px;
+  background-color: plum;
+  margin: 25px 40px 20px 0px;
 }
 
 .main-screen__first__line__screen-4 {
-    width: 150px;
-    height: 222px;
-    background-color: violet;
-    margin: 25px 40px 20px 0px;
+  width: 150px;
+  height: 222px;
+  background-color: violet;
+  margin: 25px 40px 20px 0px;
 }
 
 .main-screen__first__line__screen-5 {
-    width: 150px;
-    height: 222px;
-    background-color: palevioletred;
-    margin: 25px 40px 20px 0px;
+  width: 150px;
+  height: 222px;
+  background-color: palevioletred;
+  margin: 25px 40px 20px 0px;
 }
-
-
 
 .main-screen__first__line__column-1,
 .main-screen__first__line__column-2,
 .main-screen__first__line__column-3,
 .main-screen__first__line__column-4,
-.main-screen__first__line__column-5{
-    position: relative;
+.main-screen__first__line__column-5 {
+  position: relative;
 }
 
 .main-screen__first__line__screen__free {
-    background-color: #50BEF9;
-    color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    position: absolute;
-    left: -10px;
-    top: 10px;
+  background-color: #50bef9;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  position: absolute;
+  left: -10px;
+  top: 10px;
 }
 
 .main-screen__first__line__screen__free__number {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .main-screen__first__line__screen__info {
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-screen__first__line__screen__title {
-    font-size: 15px;
-    font-weight: bold;
-    font-family:initial;
-    margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: initial;
+  margin-bottom: 8px;
 }
 
 .main-screen__first__line__screen__name {
-    margin-bottom: 8px;
-    font-size: 13px;
-    opacity: 0.7;
+  margin-bottom: 8px;
+  font-size: 13px;
+  opacity: 0.7;
 }
-
 
 .main-screen__first__line__screen__info__grade {
-    width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.main-screen__first__line__screen__info__grade i{
-    margin-right: 4px;
+.main-screen__first__line__screen__info__grade i {
+  margin-right: 4px;
 }
