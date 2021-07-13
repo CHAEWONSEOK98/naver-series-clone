@@ -18,7 +18,7 @@
 .nav-bar-2__left__item {
   margin-right: 25px;
   position: relative;
-  left: 7.5%;
+  right: 30px;
 }
 
 .nav-bar-2__left__item:nth-child(1) {
@@ -38,7 +38,7 @@
   font-size: 13px;
   color: #949494;
   position: relative;
-  right: 44px;
+  right: 20px;
 }
 
 .nav-bar-2__right__item:nth-child(1) {

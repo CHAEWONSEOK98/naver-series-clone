@@ -5,18 +5,18 @@
   align-items: center;
   border-bottom: solid 1px #e8e8e8;
   font-size: 18px;
-  height: 2.2%;
+  height: 44px;
 }
 
 .nav-bar-1__left {
   display: flex;
   align-items: center;
-  position: relative;
-  left: 5.5%;
 }
 
 .nav-bar-1__left__item {
   margin-right: 16px;
+  position: relative;
+  left: 22px;
 }
 
 .nav-bar-1__left__item:nth-child(1) {
@@ -26,8 +26,8 @@
   color: white;
   font-family: "Otomanopee One", sans-serif;
   font-weight: bold;
-  height: 49px;
-  padding: 0 10px;
+  height: 44px;
+  padding: 0 14px;
 }
 
 .nav-bar-1__left__item:nth-child(2) {
@@ -56,7 +56,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  right: 0.1%;
+  left: 20px;
 }
 
 .nav-bar-1__right__item {

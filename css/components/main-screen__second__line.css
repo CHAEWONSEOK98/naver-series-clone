@@ -3,14 +3,13 @@
   justify-content: center;
   height: 13%;
   border-bottom: solid 1px grey;
-  position: relative;
-  left: 4.8%;
+  margin-left: 70px;
 }
 
 .main-screen__second__line__add-option {
   width: 150px;
   font-size: 13px;
-  color: black;
+  color: red;
   opacity: 0.8;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -18,7 +17,7 @@
   display: flex;
   justify-content: center;
   margin-top: 17px;
-  margin-left: 37px;
+  margin-left: 55px;
 }
 
 .main-screen__second__line__add-option i {
@@ -29,7 +28,7 @@
   width: 101px;
   height: 152px;
   background-color: peachpuff;
-  margin-right: 31px;
+  margin: 0 15px;
   margin-bottom: 11px;
 }
 
@@ -37,7 +36,7 @@
   width: 101px;
   height: 152px;
   background-color: peachpuff;
-  margin-right: 31px;
+  margin: 0 15px;
   margin-bottom: 11px;
 }
 
@@ -45,7 +44,7 @@
   width: 101px;
   height: 152px;
   background-color: peachpuff;
-  margin-right: 31px;
+  margin: 0 15px;
   margin-bottom: 11px;
 }
 
@@ -53,7 +52,7 @@
   width: 101px;
   height: 152px;
   background-color: peachpuff;
-  margin-right: 31px;
+  margin: 0 15px;
   margin-bottom: 11px;
 }
 
@@ -61,7 +60,7 @@
   width: 101px;
   height: 152px;
   background-color: peachpuff;
-  margin-right: 31px;
+  margin: 0 15px;
   margin-bottom: 11px;
 }
 
@@ -69,7 +68,7 @@
   width: 101px;
   height: 152px;
   background-color: peachpuff;
-  margin-right: 31px;
+  margin: 0 15px;
   margin-bottom: 11px;
 }
 
@@ -77,18 +76,8 @@
   width: 101px;
   height: 152px;
   background-color: peachpuff;
-  margin-right: 31px;
+  margin: 0 15px;
   margin-bottom: 11px;
-}
-
-.main-screen__second__line__column-1,
-.main-screen__second__line__column-2,
-.main-screen__second__line__column-3,
-.main-screen__second__line__column-4,
-.main-screen__second__line__column-5,
-.main-screen__second__line__column-6,
-.main-screen__second__line__column-7 {
-  position: relative;
 }
 
 .main-screen__second__line__free_info {
@@ -98,8 +87,8 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #626263;
   position: relative;
-  top: -255px;
-  left: 3px;
+  top: -252px;
+  left: 5px;
 }
 
 .main-screen__second__line__screen__free {
@@ -113,7 +102,7 @@
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  position: absolute;
+  position: relative;
   left: -12px;
   top: -10px;
 }
@@ -132,7 +121,7 @@
   justify-content: center;
   font-size: 13px;
   position: relative;
-  top: -15px;
+  bottom: 18px;
 }
 
 .main-screen__second__line__screen__info {
@@ -142,6 +131,7 @@
   align-items: flex-start;
   position: relative;
   top: -15px;
+  margin-left: 15px;
 }
 
 .main-screen__second__line__screen__title {
