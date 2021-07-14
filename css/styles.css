@@ -8,9 +8,12 @@
 @import "components/main-screen__first__line.css";
 @import "components/main-screen__second__line__bargain-sale-background.css";
 @import "components/main-screen__second__line.css";
+@import "components/main-screen__third__line.css";
+@import "components/main-screen__fourth__line.css";
+@import "components/footer_info.css";
 
 body {
-  height: 300vh;
+  height: 343vh;
 }
 
 * {
