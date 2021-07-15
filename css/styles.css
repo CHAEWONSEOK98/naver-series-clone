@@ -13,9 +13,13 @@
 @import "components/footer_info.css";
 
 body {
-  height: 343vh;
+  height: 353vh;
 }
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --background-color: #f5f5f5;
 }
